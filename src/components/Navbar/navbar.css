@@ -1,0 +1,89 @@
+nav {
+    height: 55px;
+
+}
+
+.main {
+    font-size: 30px;
+}
+
+.d-f {
+    display: flex;
+}
+
+.bg-light {
+    background-color: whitesmoke;
+}
+
+.items {
+    font-size: 20px;
+    align-items: center;
+}
+
+.search {
+    font-size: 20px;
+    height: auto;
+    border: none;
+}
+
+.search::selection {
+    border: none;
+}
+
+.right {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    margin: 2px;
+}
+
+.p-5 {
+    padding: 3px;
+}
+
+.me-2 {
+    margin-right: 20px;
+}
+
+.services {
+    position: absolute;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+td{
+    padding: 3px;
+}
+
+.dropdown-content {
+    display: none;  
+    position: absolute;
+    /* min-width: 160px; */
+    padding: 0px 16px;
+    z-index: 1;
+}
+
+.drop-ero{
+    background-color: #f9f9f9;
+    padding: 0px 10px;
+}
+
+.drop-ele{
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-style: hidden;
+}
